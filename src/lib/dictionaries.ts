@@ -13,7 +13,7 @@ export const th = {
       "มุ่งมั่นพัฒนาและสร้างสรรค์ผลงานทางด้านดิจิทัลและนวัตกรรม มีความสนใจในการพัฒนาเว็บไซต์และแอปพลิเคชัน",
     contactMe: "ติดต่อ",
     viewWork: "ดูผลงาน",
-    resume: "ดูเรซูเม่",
+    cv: "CV",
     interestedPositions: [
       "Frontend Developer",
       "Backend Developer",
@@ -25,10 +25,12 @@ export const th = {
     title: "เกี่ยวกับผม",
     age: "อายุ",
     ageValue: "22 ปี",
-    education: "กำลังศึกษาอยู่ปี 3",
+    educationLevel: "ระดับการศึกษา",
+    education: "ปริญญาตรี",
     university: "มหาวิทยาลัยเอเชียอาคเนย์",
     faculty: "คณะศิลปศาสตร์และวิทยาศาสตร์",
-    major: "สาขาเทคโนโลยีดิจิทัลและนวัตกรรม",
+    majorLabel: "สาขา",
+    majorValue: "เทคโนโลยีดิจิทัลและนวัตกรรม",
     skillsTitle: "ทักษะและความถนัด",
   },
   skills: {
@@ -43,7 +45,7 @@ export const th = {
         degree: "ปริญญาตรี",
         major: "สาขาเทคโนโลยีดิจิทัลและนวัตกรรม",
         school: "มหาวิทยาลัยเอเชียอาคเนย์",
-        period: "2023 - ปัจจุบัน",
+        period: "2023 - 2026",
         description:
           "ศึกษาทางด้านเทคโนโลยีดิจิทัลและนวัตกรรม เน้นการประยุกต์ใช้เทคโนโลยีสมัยใหม่ในการแก้ปัญหาและสร้างสรรค์สิ่งใหม่",
         current: true,
@@ -234,7 +236,7 @@ export const en = {
       "Passionate about developing and creating digital and innovative projects. Interested in web and application development.",
     contactMe: "Contact Me",
     viewWork: "View Work",
-    resume: "View Resume",
+    cv: "CV",
     interestedPositions: [
       "Frontend Developer",
       "Backend Developer",
@@ -246,10 +248,12 @@ export const en = {
     title: "About Me",
     age: "Age",
     ageValue: "22 years old",
-    education: "3rd Year Student",
-    university: "South East Asia University",
-    faculty: "Faculty of Arts and Sciences",
-    major: "Digital Technology and Innovation",
+    educationLevel: "Education Level",
+    education: "Bachelor's Degree",
+    university: "Southeast Asia University",
+    faculty: "Faculty of Liberal Arts and Science",
+    majorLabel: "Major",
+    majorValue: "Digital Technology and Innovation",
     skillsTitle: "Skills & Expertise",
   },
   skills: {
@@ -263,8 +267,8 @@ export const en = {
       {
         degree: "Bachelor's Degree",
         major: "Digital Technology and Innovation",
-        school: "South East Asia University",
-        period: "2023 - Present",
+        school: "Southeast Asia University",
+        period: "2023 - 2026",
         description:
           "Studying Digital Technology and Innovation, focusing on applying modern technology to solve problems and innovate.",
         current: true,
@@ -272,8 +276,8 @@ export const en = {
       {
         degree: "Vocational Certificate",
         major: "Business Computer",
-        school: "Krutee Village Technology College",
-        period: "2021 - 2023",
+        school: "Mubankru Technological College",
+        period: "2020 - 2022",
         description:
           "Studied fundamentals of business computing, database management, and basic programming.",
         current: false,

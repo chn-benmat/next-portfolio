@@ -59,7 +59,7 @@ export function About() {
               <GraduationCap size={24} />
             </div>
             <h3 className="text-sm font-medium text-slate-500 dark:text-slate-400 mb-1">
-              Status
+              {dict.about.educationLevel}
             </h3>
             <p className="text-lg font-semibold text-slate-900 dark:text-slate-100">
               {dict.about.education}
@@ -97,10 +97,10 @@ export function About() {
               <BookOpen size={24} />
             </div>
             <h3 className="text-sm font-medium text-slate-500 dark:text-slate-400 mb-1">
-              Major
+              {dict.about.majorLabel}
             </h3>
             <p className="text-xl md:text-2xl font-bold bg-clip-text text-transparent bg-linear-to-r from-sky-500 to-blue-600">
-              {dict.about.major}
+              {dict.about.majorValue}
             </p>
           </motion.div>
         </div>
@@ -135,7 +135,14 @@ export function About() {
                 {dict.skills.programming}
               </h3>
               <div className="flex flex-wrap gap-2">
-                {["JavaScript", "TypeScript", "Dart", "Python"].map((skill) => (
+                {[
+                  "JavaScript",
+                  "TypeScript",
+                  "Dart",
+                  "Python",
+                  "Go",
+                  "PHP",
+                ].map((skill) => (
                   <span
                     key={skill}
                     className="px-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg text-sm font-medium text-slate-700 dark:text-slate-300"
