@@ -35,6 +35,16 @@ export function Certificates() {
 
   const certificateFiles = [
     {
+      name: "ใบรับรองการฝึกงาน",
+      category: "บริษัท มายด์ ซอฟแวร์ ดีเวลลอปเม้นท์ จำกัด",
+      file: "/certificates/internship.jpg",
+    },
+    {
+      name: "ใบรับรองการฝึกงาน",
+      category: "บริษัท บอทน้อยคอนซัลติ้ง จำกัด",
+      file: "/certificates/internship2.pdf",
+    },
+    {
       name: "Word 2019",
       category: "Microsoft Office Specialist",
       file: "/certificates/word-2019.pdf",
@@ -69,11 +79,7 @@ export function Certificates() {
       category: "Infomation Technology passport Examination 2024",
       file: "/certificates/itpec.pdf",
     },
-    {
-      name: "ใบรับรองการฝึกงาน",
-      category: "บริษัท มายด์ ซอฟแวร์ ดีเวลลอปเม้นท์ จำกัด",
-      file: "/certificates/internship.jpg",
-    },
+
     {
       name: "สิ่งประดิษฐ์ด้านวัตกรรมซอฟต์แวร์และระบบสมองกลฝังตัว",
       category:
