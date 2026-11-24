@@ -35,6 +35,26 @@ export function Certificates() {
 
   const certificateFiles = [
     {
+      name: "Word 2019",
+      category: "Microsoft Office Specialist",
+      file: "/certificates/word-2019.pdf",
+    },
+    {
+      name: "ITPEC",
+      category: "Infomation Technology passport Examination 2024",
+      file: "/certificates/itpec.pdf",
+    },
+    {
+      name: "ICDL",
+      category: "ICDL THAILAND 2024",
+      file: "/certificates/icdl.pdf",
+    },
+    {
+      name: "Generative AI Foundations",
+      category: "Generative AI Foundations",
+      file: "/certificates/generative-ai-foundations.pdf",
+    },
+    {
       name: "ใบรับรองการฝึกงาน",
       category: "บริษัท มายด์ ซอฟแวร์ ดีเวลลอปเม้นท์ จำกัด",
       file: "/certificates/internship.jpg",
@@ -44,11 +64,7 @@ export function Certificates() {
       category: "บริษัท บอทน้อยคอนซัลติ้ง จำกัด",
       file: "/certificates/internship2.pdf",
     },
-    {
-      name: "Word 2019",
-      category: "Microsoft Office Specialist",
-      file: "/certificates/word-2019.pdf",
-    },
+
     {
       name: "Microsoft Office Specialist - Associate",
       category: "Microsoft Office Specialist - Associate",
@@ -68,16 +84,6 @@ export function Certificates() {
       name: "PowerPoint 2019 Associate",
       category: "Microsoft Office Specialist",
       file: "/certificates/powerpoint-2019.pdf",
-    },
-    {
-      name: "ICDL",
-      category: "ICDL THAILAND 2024",
-      file: "/certificates/icdl.pdf",
-    },
-    {
-      name: "ITPEC",
-      category: "Infomation Technology passport Examination 2024",
-      file: "/certificates/itpec.pdf",
     },
 
     {
